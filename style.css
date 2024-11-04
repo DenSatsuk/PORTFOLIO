@@ -430,18 +430,15 @@ p {
 }
 
 .swiper-slide b {
-    padding-top: 55px;
+    padding-top: 30px;
 }
 
 .swiper-slide p {
-    padding: 100px;
+    padding: 50px;
     font-size: 30px;
 }
 
-.swiper-slide img {
-    width: 100px;
-    height: 100%;
-}
+.swiper-slide image {}
 
 .контакты2 {
     padding: 67px 118px 182px 118px;

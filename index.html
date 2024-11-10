@@ -138,6 +138,10 @@
                             <p>Верстка сайтов на языке JavaScript</p>
                         </div>
                     </div>
+                </div>
+                <div class="container">
+                    <button id="themeToggle">toggle theme</button>
+                </div>
             </section>
             <!-- окончание 3 секции -->
 
@@ -326,6 +330,16 @@
             scrollbar: {
                 el: '.swiper-scrollbar',
             },
+        });
+    </script>
+    <script>
+        document.getElementById("themeToggle").addEventListener("click", function () {
+            const мои_услуги = document.body.className;
+            if (мои_услуги === 'light-theme') {
+                document.body.className = 'dark-theme';
+            } else {
+                document.body.className = 'light-theme';
+            }
         });
     </script>
 </body>

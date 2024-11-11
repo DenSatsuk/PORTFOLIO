@@ -648,7 +648,7 @@ button {
 
 /*media*/
 
-@media (max-width: 500px) {
+@media (max-width: 430px) {
     .auto-mid {
         width: 100%;
     }
@@ -659,7 +659,7 @@ button {
     }
 
     .logo {
-        padding-left: 230px;
+        padding-left: 200px;
     }
 
     .header nav ul {
@@ -854,6 +854,7 @@ button {
         font-size: 15px;
         font-weight: 700;
         margin: auto;
+        width: 290px;
     }
 
     .о_себе p {
@@ -861,6 +862,7 @@ button {
         font-size: 14px;
         font-weight: 300;
         margin: auto;
+        width: 290px;
     }
 
     .компетенции ul {
@@ -922,14 +924,14 @@ button {
         justify-content: center;
         grid-template-columns: 180px 180px;
         grid-row-gap: 20px;
-        grid-column-gap: 30px;
+        grid-column-gap: 20px;
 
     }
 
     .мои_услуги_grid_element {
         text-align: center;
         border: #000000 solid 2px;
-        width: 200px;
+        width: 180px;
         height: 100px;
     }
 
@@ -1075,7 +1077,7 @@ button {
     }
 
     .swiper {
-        width: 450px;
+        width: 370px;
         height: 320px;
     }
 

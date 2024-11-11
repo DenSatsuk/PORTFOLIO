@@ -13,6 +13,11 @@
     <div class="auto-mid">
         <!-- начало HEADER NAVBAR -->
         <header class="header">
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <h1 class="logo">DISA</h1>
             <nav>
                 <ul>
@@ -342,6 +347,13 @@
             }
         });
     </script>
+    <script>
+        document.querySelector('.burger-menu').addEventListener('click', function () {
+            this.classList.toggle('open');
+            document.querySelector('.header').classList.toggle('open')
+        })
+    </script>
+
 </body>
 
 </html>
